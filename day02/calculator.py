@@ -1,0 +1,10 @@
+num1 = int(input("Enter 1st num:"))
+num2 = int(input("Enter 2nd num:"))
+
+print("Addition:",num1 + num2)
+print("Subtract:", num1 - num2)
+print("Multiplication:", num1 * num2)
+print("Division:",num1 / num2)
+print("Modulous:", num1 % num2)
+print("Floor Division:", num1 // num2)
+print("Power:", num1**num2)
