@@ -68,6 +68,81 @@ Files:
 Files:
 - calculate.sh → Log count calculator
 - bashcalculator.sh → Bash calculator project
+## Day 3 – Conditional Statements & Logical Operators
+
+### Python Topics Covered
+
+* if statement
+* if-else statement
+* if-elif-else statement
+* Comparison Operators (`==`, `!=`, `>`, `<`, `>=`, `<=`)
+* Logical Operators (`and`, `or`, `not`)
+* User Input Validation
+* Login Authentication Example
+* Salary Eligibility Checker
+
+### Python Programs
+
+| File              | Description                      |
+| ----------------- | -------------------------------- |
+| simpleif.py       | Basic if statement               |
+| simpleifelse.py   | if-else example                  |
+| simpleifelseif.py | if-elif-else example             |
+| equal.py          | Equality operator example        |
+| andoperator.py    | Logical AND example              |
+| or_operator.py    | Logical OR example               |
+| not_operator.py   | Logical NOT example              |
+| task1.py          | Adult or Minor checker           |
+| task2.py          | Find larger number               |
+| task3.py          | Grade calculator                 |
+| task4.py          | Username and password validation |
+| salary_checker.py | Interview eligibility checker    |
+
+### Bash Topics Covered
+
+* if statement
+* if-else statement
+* Numeric comparison operators
+* String comparison
+* File existence checks
+* Directory existence checks
+* User input with read command
+
+### Bash Scripts
+
+| File              | Description                   |
+| ----------------- | ----------------------------- |
+| simple_if.sh      | Basic if statement            |
+| if-else.sh        | if-else example               |
+| string_compare.sh | String comparison             |
+| file_check.sh     | File existence check          |
+| dir_check.sh      | Directory existence check     |
+| service_check.sh  | User-provided directory check |
+| task5.sh          | Adult or Minor checker        |
+| task6.sh          | Compare two numbers           |
+
+### Mini Challenges Completed
+
+* Salary Eligibility Checker (Python)
+* Directory Validation Script (Bash)
+
+### Key Learnings
+
+* Making decisions using conditional statements
+* Combining multiple conditions using logical operators
+* Working with user input
+* Checking files and directories in Bash
+* Building simple validation and authentication scripts
+
+### Day 3 Status
+
+✅ Completed
+
+**Score:** 9/10
+
+### Next Topic
+
+Day 4 – Loops (`for`, `while`, `range`) in Python and Bash.
 
 ---
 
@@ -75,4 +150,5 @@ Files:
 
 - Day 1 : Completed
 - Day 2 : Completed
-- Day 3 : In Progress
+- Day 3 : Completed
+- Day 4 : In Progress
