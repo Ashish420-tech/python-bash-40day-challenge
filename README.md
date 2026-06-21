@@ -1,95 +1,137 @@
-# Python + Bash Scripting for DevOps (40 Days Challenge)
+# 🚀 Python + Bash Scripting for DevOps (40 Days Challenge)
 
-## Goal
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge\&logo=python)
+![Bash](https://img.shields.io/badge/Bash-Scripting-green?style=for-the-badge\&logo=gnubash)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange?style=for-the-badge\&logo=linux)
+![DevOps](https://img.shields.io/badge/DevOps-Automation-red?style=for-the-badge)
+![Status](https://img.shields.io/badge/Progress-Day%208-success?style=for-the-badge)
+
+A hands-on **40 Days Challenge** to master **Python** and **Bash scripting** with a strong focus on **DevOps**, **Linux Administration**, **Cloud Automation**, and **Site Reliability Engineering (SRE)**.
+
+This repository documents my daily learning journey through practical coding exercises, mini projects, and automation scripts that reflect real-world DevOps tasks.
+
+---
+
+# 🎯 Goal
 
 Learn Python and Bash scripting for:
 
-* DevOps
+* DevOps Engineering
 * Linux Administration
 * Site Reliability Engineering (SRE)
-* Automation Engineering
+* Cloud Automation
+* Infrastructure Automation
+* System Administration
+* CI/CD Automation
+* Production Support
 
 ---
 
-# Day 1 – Python & Bash Basics
+# 🗓️ Challenge Progress
 
-## Python Topics Covered
+| Day      | Topics                                     |    Status   |
+| -------- | ------------------------------------------ | :---------: |
+| ✅ Day 1  | Python & Bash Basics                       |  Completed  |
+| ✅ Day 2  | Arithmetic Operators                       |  Completed  |
+| ✅ Day 3  | Conditional Statements & Logical Operators |  Completed  |
+| ✅ Day 4  | Loops & File Handling                      |  Completed  |
+| ✅ Day 5  | Functions & File Operations                |  Completed  |
+| ✅ Day 6  | Python Collections & Bash Arrays           |  Completed  |
+| ✅ Day 7  | Functions, Modules & Script Reusability    |  Completed  |
+| ✅ Day 8  | Exception Handling & Error Management      |  Completed  |
+| ⏳ Day 9  | Object-Oriented Programming (OOP)          | Coming Soon |
+| ⏳ Day 10 | Classes, Objects & Inheritance             | Coming Soon |
 
-* `print()`
+---
+
+# 📚 Daily Learning Journey
+
+---
+
+# ✅ Day 1 – Python & Bash Basics
+
+## 🐍 Python
+
+### Topics Covered
+
+* print()
 * Variables
-* `input()`
-* `sys.argv`
+* input()
+* sys.argv
 
-### Python Programs
+### Programs
 
-| File       | Description                |
-| ---------- | -------------------------- |
-| add.py     | Addition example           |
-| student.py | Student information script |
-| greet.py   | Greeting script            |
+| File       | Description         |
+| ---------- | ------------------- |
+| add.py     | Addition example    |
+| student.py | Student information |
+| greet.py   | Greeting program    |
 
-## Bash Topics Covered
+---
 
-* `echo`
+## 🐧 Bash
+
+### Topics Covered
+
+* echo
 * Variables
-* `read`
+* read
 * Positional Parameters
 * Shebang (`#!/bin/bash`)
 
-### Bash Scripts
+### Scripts
 
-| File       | Description                |
-| ---------- | -------------------------- |
-| greet.sh   | Greeting script            |
-| student.sh | Student information script |
+| File       | Description         |
+| ---------- | ------------------- |
+| greet.sh   | Greeting script     |
+| student.sh | Student information |
 
 ---
 
-# Day 2 – Arithmetic Operators
+# ✅ Day 2 – Arithmetic Operators
 
-## Python Topics Covered
+## 🐍 Python
+
+### Topics
 
 * Arithmetic Operators
-* `/`
-* `%`
-* `//`
-* `**`
+* Division
+* Floor Division
+* Modulus
+* Exponent
 * Type Casting
 
-### Python Programs
+### Programs
 
-| File          | Description          |
-| ------------- | -------------------- |
-| add.py        | Addition             |
-| subtract.py   | Subtraction          |
-| multiply.py   | Multiplication       |
-| div.py        | Division             |
-| modulus.py    | Modulus              |
-| floordiv.py   | Floor Division       |
-| power.py      | Exponent             |
-| calculator.py | Calculator Project   |
-| typecast.py   | String Concatenation |
-| typecast1.py  | Integer Conversion   |
-| diskcal.py    | Storage Calculator   |
-| task1.py      | Arithmetic Task      |
-
-## Bash Topics Covered
-
-* `expr`
-* Arithmetic Expansion `$(( ))`
-
-### Bash Scripts
-
-| File              | Description          |
-| ----------------- | -------------------- |
-| calculate.sh      | Log Count Calculator |
-| bashcalculator.sh | Calculator Project   |
+* Addition
+* Subtraction
+* Multiplication
+* Division
+* Calculator Project
+* Type Casting
+* Storage Calculator
 
 ---
 
-# Day 3 – Conditional Statements & Logical Operators
+## 🐧 Bash
 
-## Python Topics Covered
+### Topics
+
+* expr
+* Arithmetic Expansion
+
+### Scripts
+
+* Calculator
+* Log Count Calculator
+
+---
+
+# ✅ Day 3 – Conditional Statements & Logical Operators
+
+## 🐍 Python
+
+### Topics
 
 * if
 * if-else
@@ -99,58 +141,33 @@ Learn Python and Bash scripting for:
 * Login Authentication
 * Salary Eligibility Checker
 
-### Python Programs
+---
 
-| File              | Description           |
-| ----------------- | --------------------- |
-| simpleif.py       | Basic if              |
-| simpleifelse.py   | if-else               |
-| simpleifelseif.py | if-elif-else          |
-| equal.py          | Equality Operator     |
-| andoperator.py    | Logical AND           |
-| or_operator.py    | Logical OR            |
-| not_operator.py   | Logical NOT           |
-| task1.py          | Adult or Minor        |
-| task2.py          | Larger Number         |
-| task3.py          | Grade Calculator      |
-| task4.py          | Login Validation      |
-| salary_checker.py | Interview Eligibility |
+## 🐧 Bash
 
-## Bash Topics Covered
+### Topics
 
 * if
 * if-else
 * Numeric Comparison
 * String Comparison
-* File Check
-* Directory Check
-* User Input
+* File Validation
+* Directory Validation
 
-### Bash Scripts
+### Mini Challenge
 
-| File              | Description          |
-| ----------------- | -------------------- |
-| simple_if.sh      | Basic if             |
-| if-else.sh        | if-else              |
-| string_compare.sh | String Comparison    |
-| file_check.sh     | File Validation      |
-| dir_check.sh      | Directory Validation |
-| service_check.sh  | User Input Directory |
-| task5.sh          | Adult or Minor       |
-| task6.sh          | Compare Numbers      |
+* Salary Eligibility Checker
+* Directory Validation
 
-### Mini Challenges
-
-* Salary Eligibility Checker (Python)
-* Directory Validation Script (Bash)
-
-**Score:** ⭐⭐⭐⭐⭐⭐⭐⭐⭐☆ (9/10)
+⭐ **Score:** 9/10
 
 ---
 
-# Day 4 – Loops & File Handling
+# ✅ Day 4 – Loops & File Handling
 
-## Python Topics Covered
+## 🐍 Python
+
+### Topics
 
 * for Loop
 * while Loop
@@ -163,118 +180,86 @@ Learn Python and Bash scripting for:
 * File Write
 * File Append
 
-### Python Programs
+---
 
-* Pattern Printing
-* Number Tables
-* While Loop Examples
-* File Reading
-* File Writing
-* File Appending
-* Log File Handling
+## 🐧 Bash
 
-## Bash Topics Covered
+### Topics
 
-* for Loop
-* while Loop
-* until Loop
-* break
-* continue
+* for
+* while
+* until
 * Reading Files
-* Looping Through Files
+* File Processing
 
 ### Mini Challenge
 
 * Log File Reader
-* File Processing Automation
+* File Automation
 
-**Score:** ⭐⭐⭐⭐⭐⭐⭐⭐⭐☆ (9.5/10)
+⭐ **Score:** 9.5/10
 
 ---
 
-# Day 5 – Python Functions & Bash File Operations
+# ✅ Day 5 – Functions & Bash File Operations
 
-## Python Topics Covered
+## 🐍 Python
+
+### Topics
 
 * Functions
-* Function Calls
 * Parameters
-* Multiple Function Calls
-* File Append
-* File Read
+* Function Calls
 * Reusable Code
+* File Operations
 
-### Python Programs
+---
 
-* welcome()
-* Addition Function
-* Greeting Function
-* Report Generator
-* File Append Examples
+## 🐧 Bash
 
-## Bash Topics Covered
+### Topics
 
 * File Creation
+* File Reading
 * File Append
-* Reading File Line by Line
-* File Existence Validation
-* User Input
+* Validation
 
 ### Mini Challenge
 
 * Report Generator
 * Employee Log Writer
 
-**Score:** ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐ (10/10)
+⭐ **Score:** 10/10
 
 ---
 
-# Day 6 – Python Collections & Bash Arrays
+# ✅ Day 6 – Python Collections & Bash Arrays
 
-## Python Topics Covered
+## 🐍 Python
+
+### Topics
 
 * Lists
-* List Operations
 * Tuples
 * Dictionaries
 * Dictionary Iteration
 
-### Python Programs
+---
 
-| File     | Description        |
-| -------- | ------------------ |
-| task1.py | List Operations    |
-| task2.py | Loop Through List  |
-| task3.py | Tuple Example      |
-| task4.py | Dictionary Example |
-| task5.py | Practice (Pending) |
+## 🐧 Bash
 
-## Bash Topics Covered
+### Topics
 
 * Arrays
-* User Input Arrays
 * Environment Variables
-* System Information
 * Hostname
 * Current User
-* Home Directory
 * Kernel Version
-
-### Bash Scripts
-
-| File             | Description               |
-| ---------------- | ------------------------- |
-| task1.sh         | Array Example             |
-| task2.sh         | Loop Through Array        |
-| tas3.sh          | User Input Array          |
-| task4.sh         | Environment Variables     |
-| system_report.sh | Mini DevOps System Report |
+* System Report
 
 ### Mini Project
 
-**System Report Script**
-
-Displays:
+A Bash-based **System Report Tool** displaying:
 
 * Hostname
 * Current User
@@ -284,63 +269,232 @@ Displays:
 * Memory Usage
 * System Uptime
 
-**Score:** ⭐⭐⭐⭐⭐⭐⭐⭐☆☆ (8.8/10)
+⭐ **Score:** 8.8/10
 
 ---
 
-# Overall Progress
+# ✅ Day 7 – Functions, Modules & Script Reusability
 
-| Day     | Status          |
-| ------- | --------------- |
-| ✅ Day 1 | Completed       |
-| ✅ Day 2 | Completed       |
-| ✅ Day 3 | Completed       |
-| ✅ Day 4 | Completed       |
-| ✅ Day 5 | Completed       |
-| ✅ Day 6 | Completed (95%) |
+## 🐍 Python
 
----
-
-# Current Progress
-
-* Python Basics
-* Bash Basics
-* Arithmetic
-* Conditional Statements
-* Loops
-* File Handling
-* Functions
-* Lists
-* Tuples
-* Dictionaries
-* Arrays
-* Linux Environment Variables
-* System Information Scripts
-
----
-
-# Upcoming Topics
-
-## Day 7
-
-### Python
+### Topics Covered
 
 * Functions with Arguments
 * Return Statements
 * Variable Scope
+* Local vs Global Variables
 * Modules
+* Importing Modules
 * Custom Modules
-
-### Bash
-
-* Functions
-* Script Arguments (`$1`, `$2`, `$@`, `$#`)
-* Exit Status (`$?`)
-* Reusable Functions
-* Utility Scripts
 
 ---
 
-## Target
+## 🐧 Bash
 
-Complete **40 Days** of Python & Bash scripting with hands-on projects focused on DevOps, Linux Administration, Cloud Automation, and Site Reliability Engineering.
+### Topics Covered
+
+* Functions
+* Script Arguments
+* `$1`
+* `$2`
+* `$@`
+* `$#`
+* Exit Status (`$?`)
+* Reusable Functions
+
+### Mini Challenge
+
+Build reusable Bash utility functions for automation.
+
+⭐ **Score:** 9.5/10
+
+---
+
+# ✅ Day 8 – Exception Handling & Error Management
+
+## 🐍 Python
+
+### Topics Covered
+
+* try
+* except
+* else
+* finally
+* ZeroDivisionError
+* ValueError
+* FileNotFoundError
+* Exception as e
+* raise Exception
+* File Handling
+* Line Counter
+
+### Practical Programs
+
+* Exception Handling
+* File Handling
+* Custom Exception
+* Line Counter
+* Mini Challenge
+
+---
+
+## 🐧 Bash
+
+### Topics Covered
+
+* Exit Status (`$?`)
+* Output Redirection
+* Error Redirection
+* `2>&1`
+* Logical Operators (`&&`, `||`)
+* File Existence Check
+* Directory Creation
+
+### Mini Challenge
+
+Create a script that:
+
+* Creates directories
+* Checks file existence
+* Stores command errors
+* Saves working directory
+
+⭐ **Score:** 10/10
+
+---
+
+# 🛠️ Skills Learned
+
+### Python
+
+* Variables
+* Operators
+* Conditions
+* Loops
+* Functions
+* Modules
+* Exception Handling
+* File Handling
+* Collections
+* Custom Exceptions
+
+---
+
+### Bash
+
+* Variables
+* Loops
+* Conditions
+* Arrays
+* Functions
+* Script Arguments
+* Exit Status
+* Error Handling
+* File Operations
+
+---
+
+# 🚀 DevOps Skills Gained
+
+* Linux Automation
+* Shell Scripting
+* Python Automation
+* Log Processing
+* File Management
+* Error Handling
+* System Monitoring
+* Infrastructure Scripting
+* CI/CD Foundations
+* Production Automation
+
+---
+
+# 📊 Overall Progress
+
+| Module             |     Status     |
+| ------------------ | :------------: |
+| Python Basics      |        ✅       |
+| Bash Basics        |        ✅       |
+| Arithmetic         |        ✅       |
+| Conditions         |        ✅       |
+| Loops              |        ✅       |
+| Functions          |        ✅       |
+| Modules            |        ✅       |
+| Exception Handling |        ✅       |
+| File Handling      |        ✅       |
+| Collections        |        ✅       |
+| Arrays             |        ✅       |
+| Linux Scripting    |        ✅       |
+| DevOps Automation  | 🚀 In Progress |
+
+---
+
+# 🎯 Upcoming Topics
+
+## Day 9
+
+### Python
+
+* Classes
+* Objects
+* Constructors
+* Instance Variables
+
+### Bash
+
+* Advanced Functions
+* Script Modularization
+* Configuration Files
+* Utility Libraries
+
+---
+
+# 💻 Tech Stack
+
+* Python 3
+* Bash
+* Linux (Ubuntu)
+* Git
+* GitHub
+* VS Code
+* WSL
+* DevOps Concepts
+
+---
+
+# 📈 Repository Goals
+
+By the end of this challenge, this repository will include:
+
+* ✅ 40+ Days of Learning
+* ✅ 300+ Python Programs
+* ✅ 200+ Bash Scripts
+* ✅ Real-world DevOps Automation
+* ✅ Linux Administration Scripts
+* ✅ CI/CD Utilities
+* ✅ File Processing Tools
+* ✅ Monitoring Scripts
+* ✅ Automation Projects
+
+---
+
+# 👨‍💻 About Me
+
+**Ashish Mondal**
+
+DevOps Engineer | Linux | AWS | Azure | Kubernetes | Terraform | Python | Bash
+
+I'm documenting my journey to become a stronger DevOps Engineer by consistently building automation scripts and solving practical infrastructure challenges.
+
+---
+
+# ⭐ Support
+
+If you find this repository helpful:
+
+* ⭐ Star this repository
+* 🍴 Fork it
+* 📢 Share it with others
+* 🤝 Connect with me on LinkedIn
+
+Let's learn, automate, and grow together! 🚀
